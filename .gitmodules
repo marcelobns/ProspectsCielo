@@ -1,6 +1,8 @@
 [submodule "Server"]
 	path = Server
 	url = https://github.com/marcelobns/ProspectsCielo-Server.git
+	branch = main
 [submodule "Client"]
 	path = Client
 	url = https://github.com/marcelobns/ProspectsCielo-Client.git
+    branch = main
