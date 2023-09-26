@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollLeft": -110,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -121,7 +121,7 @@
             "dataType": "int",
             "default": "",
             "option": {
-              "autoIncrement": true,
+              "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
               "notNull": true
@@ -143,7 +143,7 @@
           "active": false,
           "left": 37.3334,
           "top": 36.7781,
-          "zIndex": 333,
+          "zIndex": 8,
           "widthName": 101.74072265625,
           "widthComment": 60
         },
@@ -297,7 +297,7 @@
           "active": false,
           "left": 674.7785,
           "top": 300.1111,
-          "zIndex": 334,
+          "zIndex": 3,
           "widthName": 98.8271484375,
           "widthComment": 60
         },
@@ -305,7 +305,7 @@
         "id": "fda85304-59c6-4897-ba73-de7fad26ad78"
       },
       {
-        "name": "mccodes",
+        "name": "mc_codes",
         "comment": "",
         "columns": [
           {
@@ -359,8 +359,8 @@
           "active": false,
           "left": 38.1108,
           "top": 292.2222,
-          "zIndex": 332,
-          "widthName": 60,
+          "zIndex": 6,
+          "widthName": 61.2490234375,
           "widthComment": 60
         },
         "visible": true,
