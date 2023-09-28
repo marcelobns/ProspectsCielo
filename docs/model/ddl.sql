@@ -1,4 +1,5 @@
 
+        
 CREATE TABLE mc_codes
 (
   id           bigint       NOT NULL GENERATED ALWAYS AS IDENTITY UNIQUE,
@@ -11,20 +12,19 @@ CREATE TABLE pre_registrations
 (
   id                bigint       NOT NULL GENERATED ALWAYS AS IDENTITY UNIQUE,
   registration_type varchar(100) NOT NULL,
-  mc_code_id        bigint       NOT NULL,
-  email             varchar(300) NOT NULL UNIQUE,
+  document_number   varchar(20)  NOT NULL,
   name              varchar(300) NOT NULL,
+  email             varchar(300) NOT NULL UNIQUE,
   attributes        json         NOT NULL,
+  mc_code_id        bigint       NOT NULL,
   op                varchar(50)  NOT NULL,
-  at                timestamp    NOT NULL,
+  at                timestamp    NOT NULL DEFAULT current_timestamp,
   PRIMARY KEY (id)
 );
 
 COMMENT ON COLUMN pre_registrations.registration_type IS 'pessoa_fisica, pessoa_juridica';
 
 COMMENT ON COLUMN pre_registrations.op IS 'created, updated';
-
-COMMENT ON COLUMN pre_registrations.at IS 'current_timestamp';
 
 CREATE TABLE prospects_queue
 (
@@ -46,3 +46,6 @@ ALTER TABLE pre_registrations
   ADD CONSTRAINT FK_mc_codes_TO_pre_registrations
     FOREIGN KEY (mc_code_id)
     REFERENCES mc_codes (id);
+
+        
+      
