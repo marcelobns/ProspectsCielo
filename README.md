@@ -2,8 +2,8 @@
 
 ## Server-Side
 - Escrito na linguagem Java.
-- Utilizando o framework Spring Boot.
-- Utilizando o banco de dados Postgres hospedado em AWS RDS.
+- Spring Boot.
+- Postgres hospedado em AWS RDS.
 
 Para rodar o projeto é necessário ter o Java instalado na máquina e o Maven.  
 Basta executar o comando `mvn spring-boot:run` ou utilizar o run da IDE.  
@@ -13,8 +13,8 @@ Caso você precise alterar a porta, será necessário alterar no projeto de fron
 
 ## Client-Side
 - Escrito em TypeScript.
-- Utilizando o framework Angular.
-- Utilizando o framework PrimeNG para os componentes visuais.
+- Angular.io.
+- PrimeNG.
 
 Para rodar o projeto é necessário ter o Node instalado na máquina.  
 Você precisa instalar o Angular CLI com o comando `npm install -g @angular/cli`.  
