@@ -19,7 +19,7 @@
     },
     "database": "PostgreSQL",
     "databaseName": "",
-    "canvasType": "ERD",
+    "canvasType": "@vuerd/builtin-sql-ddl",
     "language": "GraphQL",
     "tableCase": "pascalCase",
     "columnCase": "camelCase",
@@ -389,7 +389,7 @@
           "active": false,
           "left": 677.7785,
           "top": 280.1111,
-          "zIndex": 9,
+          "zIndex": 3,
           "widthName": 98.8271484375,
           "widthComment": 60
         },
