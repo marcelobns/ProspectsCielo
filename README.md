@@ -40,4 +40,3 @@ Após a instalação de todas as dependencias do projeto e com ele rodando, Bast
 - Tentei usar os dois projetos para mostrar como seria o meu racional de desenvolvimento, apesar do tempo e alguns requisitos terem sidos deixados no meio do caminho, me diverti com o desafio.
 - Obrigado pela oportunidade!
 - Qualquer dúvida, estou a disposição.
-
