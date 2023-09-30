@@ -26,8 +26,11 @@ Para consumir a API, é necessário que o endereço e porta estejam corretos nos
 Na pasta `app/services`, altere `baseURL` para o endereço e porta corretos, se necessário.
 
 ## Testes
-- Testes e2e no projeto de front-end.
+- Teste e2e.
 - Utilizando Cypress.
+- cypress/e2e/addProspect.cy.ts 
+- cypress/e2e/analysisProspect.cy.ts 
+- cypress/e2e/editProspect.cy.ts
 
 Após a instalação de todas as dependencias do projeto e com ele rodando, basta executar o comando `npm run test` para gerar o relatório de testes no terminal ou `npm run cy:open` para abrir a interface do Cypress.
 
