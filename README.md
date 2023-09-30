@@ -4,7 +4,7 @@
 ### Ferramentas
 - Escrito na linguagem Java.
 - Spring Boot.
-- Postgres hospedado em AWS RDS.
+- Postgres hospedado na AWS RDS.
 
 Para rodar o projeto é necessário ter o Java instalado na máquina e o Maven.<br>
 Basta executar o comando `mvn spring-boot:run` ou utilizar o run da IDE.<br>
