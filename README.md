@@ -1,5 +1,7 @@
 # ProspectsCielo
-
+```bash
+git clone --recursive https://github.com/marcelobns/ProspectsCielo
+```
 ## Server-Side
 ### Ferramentas
 - Escrito na linguagem Java.
